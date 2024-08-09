@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: gray;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box1 {
+    padding: 60px;
+    position: relative;
+    width: 600px;
+    height: 800px;
+    background-color: yellow;
+}
+
+form {
+    padding: 30px;
+}
+
+label {
+    color: gray;
+    font-size: 20px;
+}
+
+.box2 {
+    padding: 25px;
+    position: absolute;
+    right: -50px;
+    bottom: 80px;
+    background-color: white;
+    width: 600px;
+    height: 600px;
+}
+
+.box1header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.rasm img {
+    border-radius: 50%;
+    position: absolute;
+    top: -15px;
+    left: 25px;
+}
+
+.box1header h3 {
+    font-size: 35px;
+}
+
+.ik {
+    border-radius: none;
+}
+
+.box {
+    display: flex;
+}
+
+.span {
+    color: grey;
+    position: absolute;
+    right: 15px;
+    bottom: 15px;
+    font-size: 30px;
+}
+
+.save {
+    padding-left: 20px;
+}
+
+input,
+textarea {
+    color: gray;
+    font-size: 20px;
+    width: 500px;
+    border: none;
+    border-bottom: 1px solid gray;
+}
+
+textarea {
+    min-width: 500px;
+    min-height: 130px;
+}
+
+.first,
+.last {
+    width: 250px;
+}
